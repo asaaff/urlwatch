@@ -1,0 +1,53 @@
+url: https://rise.cs.berkeley.edu/blog/
+name: RISELab Blog
+filter:
+    - css:
+        selector: ".tg-grid-holder article:nth-child(-n+2) h2"
+    - html2text: re
+---
+url: https://rise.cs.berkeley.edu/news/
+name: RISELab News
+filter:
+    - css:
+        selector: ".tg-grid-holder article:nth-child(-n+2) h2"
+    - html2text: re
+---
+url: https://engineering.purdue.edu/~yiying/publication.html
+name: Yiying Zhang
+filter:
+    - css:
+        selector: ".row-fluid>.row-fluid p b"
+    - html2text: re
+---
+url: http://www.ideawu.net/blog/
+name: Idea's Blog
+filter:
+    - css:
+        selector: ".post_list li:nth-child(-n+2) h2"
+    - html2text: re
+---
+url: https://www.kennethreitz.org/essays?category=Development
+name: Kenneth Reitz's Blog
+filter:
+    - css:
+        selector: "#page article:nth-child(-n+4) .entry-title"
+    - html2text: re
+---
+url: https://www.allthingsdistributed.com/
+name: All Things Distributed
+filter:
+    - css:
+        selector: "#alpha-inner .entry-asset:nth-child(-n+2) .asset-name"
+    - html2text: re
+---
+url: https://daniel.haxx.se/blog/
+name: daniel.haxx.se
+filter:
+    - css: "#content article:nth-child(-n+2) .entry-title"
+    - html2text: re
+---
+url: http://antirez.com/latest/0
+name: antirez's Blog
+filter:
+    - css: "#newslist article:nth-child(-n+2) h2"
+    - html2text: re
